@@ -1,0 +1,159 @@
+body,
+div,
+ul,
+ol,
+dl,
+dt,
+dd,
+li,
+dl,
+h1,
+h2,
+h3,
+h4 {
+	margin: 0;
+	padding: 0;
+	font-style: normal;
+	/*font: 12px/22px "\5B8B\4F53", Arial, Helvetica, sans-serif*/
+}
+
+ol,
+ul,
+li {
+	list-style: none;
+}
+
+img {
+	border: 0;
+	vertical-align: middle;
+}
+
+body {
+	color: #000000;
+	background: #FFF;
+	text-align: center;
+	letter-spacing: 1.1px;
+}
+
+.clear {
+	clear: both;
+	height: 1px;
+	width: 100%;
+	overflow: hidden;
+	margin-top: -1px;
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #BA2636;
+	text-decoration: underline;
+}
+
+@media screen and (min-width: 1670px) {
+	html {
+		font-size: 16px;
+	}
+	.top-logo>img {
+		width: 12rem;
+		margin-top: 0.5rem;
+	}
+	.com-padding {
+		padding-left: 20rem !important;
+		padding-right: 20rem !important;
+	}
+	#app footer .footer-right .copy-right {
+		padding: 1rem 0 0;
+	}
+	#app footer .footer-right .copy-right span {
+		font-size: 0.8rem;
+	}
+	#app footer .tab-link,
+	#app footer .real-link a {
+		padding: 0 2rem 1rem 0;
+		font-size: 1rem;
+	}
+	#app nav .orther span.desc {
+		font-size: 4.2rem;
+	}
+	#app nav .orther span.en {
+		font-size: 1.5rem;
+	}
+	#app nav .orther span.title {
+		width: 44rem;
+		height: 2rem;
+		line-height: 2rem;
+		margin: 2rem auto 0;
+		font-size: 1.5rem;
+	}
+	#app .h-cow,
+	#app .h-cow .logo {
+		background-size: 70%;
+		height: 5rem;
+		overflow: hidden;
+	}
+	#app header .tab-link {
+		height: 5rem;
+		padding: 2rem;
+		/* font-size: 1.2rem; */
+	}
+	#app header .search {
+		padding: 1.5rem 0;
+		/* font-size: 1.2rem; */
+	}
+	#app .home .new p {
+		margin: 1rem 0;
+		font-size: 1.2rem;
+		line-height: 1.2rem;
+		-webkit-line-clamp: 4;
+		height: 4.8rem;
+	}
+	#app .nav-bar {
+		height: 3.5rem;
+		line-height: 3.5rem;
+		font-size: 1.2rem;
+	}
+	#app .nav-bar a {
+		font-size: 1.2rem;
+	}
+	#app .nav span.desc {
+		/*font-size: 2.2rem;*/
+	}
+	#app .nav span.en {
+		font-size: 1.6rem;
+	}
+	#app .content .desc h5 {
+		/*font-size: 2.2rem;*/
+		height: 3.5rem;
+		line-height: 3.5rem;
+	}
+	#app .content .desc .detail div {
+		margin-left: 2.2rem;
+		/*font-size: 1.2rem;*/
+	}
+}
+
+@media screen and (min-width: 960px) and (max-width: 1669px) {
+	html {
+		font-size: 15px;
+	}
+	.com-padding {
+		padding-left: 10rem !important;
+		padding-right: 10rem !important;
+	}
+	.top-logo>img {
+		width: 7rem
+	}
+}
+
+@media screen and (max-width: 750px) {
+	html {
+		font-size: 8px !important;
+	}
+	nav .orther span.desc {
+		font-size: 1.5rem;
+	}
+}
